@@ -63,6 +63,12 @@ logs/focus.log
 
 Each entry includes timestamps for start, progress, and completion.
 
+```bash
+$ cat focus.log
+[Mon Jun  8 03:09:29 PM CEST 2026] START 1 min
+[Mon Jun  8 03:10:29 PM CEST 2026] END
+```
+
 ## 🔔 Desktop notifications
 
 
