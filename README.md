@@ -63,6 +63,14 @@ logs/focus.log
 
 Each entry includes timestamps for start, progress, and completion.
 
+## 🔔 Desktop notifications
+
+
+<img width="399" height="91" alt="start-ezgif com-crop (1)" src="https://github.com/user-attachments/assets/cc0ba990-13f8-4788-903a-e121b396e65b" />
+<br/>
+<img width="399" height="88" alt="finish-ezgif com-crop" src="https://github.com/user-attachments/assets/dd7f7854-533e-4c48-b10e-32b8c2d6c727" />
+
+
 ## 🧠 Learning Objectives
 
 This project helped me practice:
