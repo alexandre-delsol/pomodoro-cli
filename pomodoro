@@ -1,0 +1,22 @@
+#!/bin/bash
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
+
+mkdir -p "$SCRIPT_DIR/logs"
+
+source "$SCRIPT_DIR/lib/focus.sh"
+source "$SCRIPT_DIR/lib/utils.sh"
+
+case "$1" in
+  start)
+    focus "$2"
+    ;;
+  stop)
+    stop_focus
+    ;;
+  status)
+    status_focus
+    ;;
+  *)
+    echo "Usage: pomodoro {start <min>|stop|status}"
+    ;;
+esac
